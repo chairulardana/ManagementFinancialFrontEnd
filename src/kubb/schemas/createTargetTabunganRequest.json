@@ -1,0 +1,1 @@
+{"type":"object","properties":{"namaTarget":{"type":"string","nullable":true},"deskripsi":{"type":"string","nullable":true},"nominalTarget":{"type":"number","format":"double"},"tanggalTarget":{"type":"string","format":"date-time","nullable":true}},"additionalProperties":false,"x-readme-ref-name":"CreateTargetTabunganRequest"}

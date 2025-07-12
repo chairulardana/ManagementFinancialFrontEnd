@@ -1,0 +1,1 @@
+{"type":"object","properties":{"tahun":{"type":"integer","format":"int32"},"totalPengeluaran":{"type":"number","format":"double"}},"additionalProperties":false,"x-readme-ref-name":"PengeluaranPerTahunDto"}

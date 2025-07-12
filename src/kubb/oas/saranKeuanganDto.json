@@ -1,0 +1,1 @@
+{"type":"object","properties":{"saran":{"type":"string","nullable":true}},"additionalProperties":false,"x-readme-ref-name":"SaranKeuanganDto"}

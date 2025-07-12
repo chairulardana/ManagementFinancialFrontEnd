@@ -1,0 +1,15 @@
+
+services:
+  react-app:
+    build: .
+    image: manageuang-frontend
+    container_name: react-container
+    ports:
+      - "80:80"
+    networks:
+      - manageuang-network
+    restart: always
+
+networks:
+  manageuang-network:
+    external: true 

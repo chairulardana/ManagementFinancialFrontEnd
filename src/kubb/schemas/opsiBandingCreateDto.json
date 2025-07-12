@@ -1,0 +1,1 @@
+{"type":"object","properties":{"idRencanaBanding":{"type":"integer","format":"int32"},"namaOpsi":{"type":"string","nullable":true},"estimasiBiaya":{"type":"number","format":"double"},"namaKategori":{"type":"string","nullable":true}},"additionalProperties":false,"x-readme-ref-name":"OpsiBandingCreateDto"}

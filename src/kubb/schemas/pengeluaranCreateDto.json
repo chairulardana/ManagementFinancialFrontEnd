@@ -1,0 +1,1 @@
+{"type":"object","properties":{"deskripsi":{"type":"string","nullable":true},"nominal":{"type":"number","format":"double"},"namaKategori":{"type":"string","nullable":true}},"additionalProperties":false,"x-readme-ref-name":"PengeluaranCreateDto"}

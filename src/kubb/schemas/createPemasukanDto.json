@@ -1,0 +1,1 @@
+{"type":"object","properties":{"tanggal":{"type":"string","format":"date-time"},"deskripsi":{"type":"string","nullable":true},"jumlah":{"type":"number","format":"double"}},"additionalProperties":false,"x-readme-ref-name":"CreatePemasukanDto"}

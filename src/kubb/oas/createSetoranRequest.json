@@ -1,0 +1,1 @@
+{"type":"object","properties":{"nominalSetor":{"type":"number","format":"double"}},"additionalProperties":false,"x-readme-ref-name":"CreateSetoranRequest"}
