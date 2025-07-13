@@ -5,16 +5,16 @@ FROM node:18 AS build
 WORKDIR /app
 
 # Salin file package.json dan package-lock.json untuk install dependensi
-COPY package.json package-lock.json ./
+# COPY package.json package-lock.json ./
 
-# Install dependensi
-RUN npm install
+# # Install dependensi
+# RUN npm install
  
-# Salin seluruh kode sumber aplikasi
-COPY . .
+# # Salin seluruh kode sumber aplikasi
+# COPY . .
 
-# Bangun aplikasi React (menghasilkan build di folder 'build')
-RUN npm run build
+# # Bangun aplikasi React (menghasilkan build di folder 'build')
+# RUN npm run build
 
 # Gunakan image Nginx untuk menjalankan aplikasi di production
 FROM nginx:alpine
