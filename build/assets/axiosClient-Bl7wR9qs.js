@@ -1,1 +1,0 @@
-import{N as e}from"./index-B2XvNDaG.js";const t=e.create({baseURL:"http://localhost:9999",headers:{"Content-Type":"application/json"}});t.interceptors.request.use(e=>{const t=sessionStorage.getItem("token"),s=sessionStorage.getItem("Access_Google");let o="";return t&&(o=`Bearer ${t}`),s&&(o=`Bearer ${s}`),o&&(e.headers.Authorization=o),e},e=>Promise.reject(e));export{t as i};

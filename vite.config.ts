@@ -44,7 +44,7 @@ export default defineConfig({
     terserOptions: {
       output: {
         comments: false,
-      }
+      },
   }},
   resolve: {
     alias: {
